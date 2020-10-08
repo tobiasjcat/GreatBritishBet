@@ -1,0 +1,21 @@
+@font-face{
+	font-family: 'initial';
+	src: url('/static/initial.ttf');
+}
+@font-face{
+	font-family: 'tb7';
+	src: url('/static/tombats7.ttf');
+}
+@font-face{
+	font-family: 'zincboom';
+	src: url('/static/zincboom.ttf');
+}
+
+@font-face{
+	font-family: 'lato';
+	src: url('/static/Lato-Regulaar.ttf');
+}
+
+body {
+	font-family:'lato';
+}
