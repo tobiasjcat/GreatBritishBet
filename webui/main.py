@@ -5,6 +5,9 @@
 
 from bottle import get, run, static_file, template
 
+@get("/favicon.ico")
+def favicon():
+	return static_file("favicon.ico", root="static")
 
 @get("/static/<sfile>")
 def get_static_asset(sfile):

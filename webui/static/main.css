@@ -10,12 +10,15 @@
 	font-family: 'zincboom';
 	src: url('/static/zincboom.ttf');
 }
-
 @font-face{
-	font-family: 'lato';
-	src: url('/static/Lato-Regulaar.ttf');
+	font-family: 'hockey';
+	src: url('/static/hockey.ttf');
 }
 
 body {
-	font-family:'lato';
+	font-family:'hockey';
+	font-size: 200%;
+}
+th, td {
+	padding: 10px;
 }
